@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite parallel ="tests" name="Suite">
+//if i want to run only one method from the class the use groups
+
+<groups>
+<run>
+<include name ="ErrorHandling"/>
+</run>
+</groups>
+
+//we are having each test for each class
+  <test thread-count="5" name="ordersubmisstest">
+    <classes>
+     
+        <class name="Poornimaacademy.tests.OrderSubmissionTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="errorvalidationtest">
+    <classes>
+   <class name="Poornimaacademy.tests.ErrorValidationTest"/>
+   </classes>
+  </test>
+</suite> <!-- Suite -->

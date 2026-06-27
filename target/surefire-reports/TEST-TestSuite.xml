@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.585" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="webdriver.chrome.driver" value="/Users/poornimacs/.cache/selenium/chromedriver/mac-arm64/149.0.7827.155/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign/target/test-classes:/Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign/target/classes:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-java/4.44.0/selenium-java-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-api/4.44.0/selenium-api-4.44.0.jar:/Users/poornimacs/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.44.0/selenium-chrome-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.44.0/selenium-chromium-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-json/4.44.0/selenium-json-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.44.0/selenium-manager-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v146/4.44.0/selenium-devtools-v146-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v147/4.44.0/selenium-devtools-v147-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v148/4.44.0/selenium-devtools-v148-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.44.0/selenium-edge-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.44.0/selenium-firefox-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-http/4.44.0/selenium-http-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.44.0/selenium-ie-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.44.0/selenium-remote-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/Users/poornimacs/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/poornimacs/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/poornimacs/.m2/repository/com/google/errorprone/error_prone_annotations/2.47.0/error_prone_annotations-2.47.0.jar:/Users/poornimacs/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-api/1.62.0/opentelemetry-api-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-context/1.62.0/opentelemetry-context-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-common/1.62.0/opentelemetry-common-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.62.0/opentelemetry-exporter-logging-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.62.0/opentelemetry-sdk-common-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.62.0/opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.62.0/opentelemetry-sdk-extension-autoconfigure-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.62.0/opentelemetry-sdk-trace-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.62.0/opentelemetry-sdk-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.62.0/opentelemetry-sdk-metrics-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.62.0/opentelemetry-sdk-logs-1.62.0.jar:/Users/poornimacs/.m2/repository/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-os/4.44.0/selenium-os-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.44.0/selenium-safari-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-support/4.44.0/selenium-support-4.44.0.jar:/Users/poornimacs/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/poornimacs/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/poornimacs/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/poornimacs/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/poornimacs/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/poornimacs/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/poornimacs/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.22.0/jackson-databind-2.22.0.jar:/Users/poornimacs/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.22/jackson-annotations-2.22.jar:/Users/poornimacs/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.22.0/jackson-core-2.22.0.jar:/Users/poornimacs/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.4/webdrivermanager-6.3.4.jar:/Users/poornimacs/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java/3.7.1/docker-java-3.7.1.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java-core/3.7.1/docker-java-core-3.7.1.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java-api/3.7.1/docker-java-api-3.7.1.jar:/Users/poornimacs/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.7.1/docker-java-transport-httpclient5-3.7.1.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java-transport/3.7.1/docker-java-transport-3.7.1.jar:/Users/poornimacs/.m2/repository/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar:/Users/poornimacs/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/poornimacs/.m2/repository/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/Users/poornimacs/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/poornimacs/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/poornimacs/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/poornimacs/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar:/Users/poornimacs/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar:/Users/poornimacs/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar:/Users/poornimacs/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/poornimacs/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/poornimacs/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign/target/surefire/surefirebooter-20260619150525942_3.jar /Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign/target/surefire 2026-06-19T15-05-25_910-jvmRun1 surefire-20260619150525942_1tmp surefire_0-20260619150525942_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign/target/test-classes:/Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign/target/classes:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-java/4.44.0/selenium-java-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-api/4.44.0/selenium-api-4.44.0.jar:/Users/poornimacs/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.44.0/selenium-chrome-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.44.0/selenium-chromium-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-json/4.44.0/selenium-json-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.44.0/selenium-manager-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v146/4.44.0/selenium-devtools-v146-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v147/4.44.0/selenium-devtools-v147-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v148/4.44.0/selenium-devtools-v148-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.44.0/selenium-edge-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.44.0/selenium-firefox-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-http/4.44.0/selenium-http-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.44.0/selenium-ie-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.44.0/selenium-remote-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/Users/poornimacs/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/poornimacs/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/poornimacs/.m2/repository/com/google/errorprone/error_prone_annotations/2.47.0/error_prone_annotations-2.47.0.jar:/Users/poornimacs/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-api/1.62.0/opentelemetry-api-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-context/1.62.0/opentelemetry-context-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-common/1.62.0/opentelemetry-common-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.62.0/opentelemetry-exporter-logging-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.62.0/opentelemetry-sdk-common-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.62.0/opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.62.0/opentelemetry-sdk-extension-autoconfigure-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.62.0/opentelemetry-sdk-trace-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.62.0/opentelemetry-sdk-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.62.0/opentelemetry-sdk-metrics-1.62.0.jar:/Users/poornimacs/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.62.0/opentelemetry-sdk-logs-1.62.0.jar:/Users/poornimacs/.m2/repository/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-os/4.44.0/selenium-os-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.44.0/selenium-safari-driver-4.44.0.jar:/Users/poornimacs/.m2/repository/org/seleniumhq/selenium/selenium-support/4.44.0/selenium-support-4.44.0.jar:/Users/poornimacs/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/poornimacs/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/poornimacs/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/poornimacs/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/poornimacs/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/Users/poornimacs/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/poornimacs/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.22.0/jackson-databind-2.22.0.jar:/Users/poornimacs/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.22/jackson-annotations-2.22.jar:/Users/poornimacs/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.22.0/jackson-core-2.22.0.jar:/Users/poornimacs/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.4/webdrivermanager-6.3.4.jar:/Users/poornimacs/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java/3.7.1/docker-java-3.7.1.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java-core/3.7.1/docker-java-core-3.7.1.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java-api/3.7.1/docker-java-api-3.7.1.jar:/Users/poornimacs/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.7.1/docker-java-transport-httpclient5-3.7.1.jar:/Users/poornimacs/.m2/repository/com/github/docker-java/docker-java-transport/3.7.1/docker-java-transport-3.7.1.jar:/Users/poornimacs/.m2/repository/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar:/Users/poornimacs/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/poornimacs/.m2/repository/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/Users/poornimacs/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/poornimacs/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/poornimacs/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/poornimacs/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar:/Users/poornimacs/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar:/Users/poornimacs/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar:/Users/poornimacs/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/poornimacs/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/poornimacs/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/poornimacs"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign/target/surefire/surefirebooter-20260619150525942_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.2"/>
+    <property name="user.name" value="poornimacs"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.7.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chromeheadless"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/poornimacs/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/2b/5p0khtwn35sf4kdx_yps_0zh0000gn/T/"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="/Users/poornimacs/eclipse-workspace/SeleniumFrameworkDesign"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/poornimacs/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.2"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="OrderSubmitTest[{password=Poornima@22, product=ZARA COAT 3, email=poornimacs22@gmail.com}](1)" classname="Poornimaacademy.tests.OrderSubmissionTest" time="1.108">
+    <failure message="element click intercepted: Element is not clickable at point (400, 688)&#10;  (Session info: chrome=149.0.7827.114)&#10;Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.7.3&apos;, java.version: &apos;25.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [50e178d371c6bf6453636cc679cf7aa8, clickElement {id=f.39C4DF897AC87F66C5A471C9DC2B9421.d.53CD16684F2EB0C57C6C76B29DA919CA.e.9}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/2b/5p0khtwn35s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59880}, goog:processID: 98814, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59880/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on mac (50e178d371c6bf6453636cc679cf7aa8)] -&gt; id: login]&#10;Session ID: 50e178d371c6bf6453636cc679cf7aa8" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (400, 688)
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50e178d371c6bf6453636cc679cf7aa8, clickElement {id=f.39C4DF897AC87F66C5A471C9DC2B9421.d.53CD16684F2EB0C57C6C76B29DA919CA.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/2b/5p0khtwn35s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59880}, goog:processID: 98814, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59880/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (50e178d371c6bf6453636cc679cf7aa8)] -> id: login]
+Session ID: 50e178d371c6bf6453636cc679cf7aa8
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at Poornimaacademy.pageobject.LandingPage.loginApplication(LandingPage.java:52)
+	at Poornimaacademy.tests.OrderSubmissionTest.OrderSubmitTest(OrderSubmissionTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jun 19, 2026 3:05:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="OrderSubmitTest[{password=Poornima@22, product=ADIDAS ORIGINAL, email=poornimaclk22@gmail.com}](2)" classname="Poornimaacademy.tests.OrderSubmissionTest" time="1.107">
+    <failure message="element click intercepted: Element is not clickable at point (400, 688)&#10;  (Session info: chrome=149.0.7827.114)&#10;Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;15.7.3&apos;, java.version: &apos;25.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [eb4b8a2ecd44f6e604662b35f3f6b230, clickElement {id=f.217D9AC22290ADF4A65E9C32CA259F82.d.725FE5F5C67C38AD2B0C16B6D41BF2DC.e.9}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/2b/5p0khtwn35s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59939}, goog:processID: 98842, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59939/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on mac (eb4b8a2ecd44f6e604662b35f3f6b230)] -&gt; id: login]&#10;Session ID: eb4b8a2ecd44f6e604662b35f3f6b230" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (400, 688)
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb4b8a2ecd44f6e604662b35f3f6b230, clickElement {id=f.217D9AC22290ADF4A65E9C32CA259F82.d.725FE5F5C67C38AD2B0C16B6D41BF2DC.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/2b/5p0khtwn35s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59939}, goog:processID: 98842, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59939/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (eb4b8a2ecd44f6e604662b35f3f6b230)] -> id: login]
+Session ID: eb4b8a2ecd44f6e604662b35f3f6b230
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+	at Poornimaacademy.pageobject.LandingPage.loginApplication(LandingPage.java:52)
+	at Poornimaacademy.tests.OrderSubmissionTest.OrderSubmitTest(OrderSubmissionTest.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+]]></failure>
+    <system-err><![CDATA[Jun 19, 2026 3:05:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+</testsuite>

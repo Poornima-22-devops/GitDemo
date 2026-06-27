@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-19T15:05:26 IST" name="Suite" finished-at="2026-06-19T15:05:33 IST" duration-ms="7442">
+    <groups>
+      <group name="purchase">
+        <method signature="OrderSubmissionTest.OrderSubmitTest(java.util.HashMap)[pri:0, instance:Poornimaacademy.tests.OrderSubmissionTest@12b0404f]" name="OrderSubmitTest" class="Poornimaacademy.tests.OrderSubmissionTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2026-06-19T15:05:26 IST" name="errorvalidationtest" finished-at="2026-06-19T15:05:26 IST" duration-ms="2">
+    </test> <!-- errorvalidationtest -->
+    <test started-at="2026-06-19T15:05:26 IST" name="ordersubmisstest" finished-at="2026-06-19T15:05:33 IST" duration-ms="7442">
+      <class name="Poornimaacademy.tests.OrderSubmissionTest">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Poornimaacademy.tests.OrderSubmissionTest@12b0404f]" started-at="2026-06-19T15:05:26 IST" name="LaunchApplication" finished-at="2026-06-19T15:05:28 IST" duration-ms="2365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="OrderSubmitTest(java.util.HashMap)[pri:0, instance:Poornimaacademy.tests.OrderSubmissionTest@12b0404f]" started-at="2026-06-19T15:05:28 IST" name="OrderSubmitTest" data-provider="getData" finished-at="2026-06-19T15:05:29 IST" duration-ms="1106" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Poornima@22, product=ZARA COAT 3, email=poornimacs22@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (400, 688)
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50e178d371c6bf6453636cc679cf7aa8, clickElement {id=f.39C4DF897AC87F66C5A471C9DC2B9421.d.53CD16684F2EB0C57C6C76B29DA919CA.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/2b/5p0khtwn35s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59880}, goog:processID: 98814, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59880/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (50e178d371c6bf6453636cc679cf7aa8)] -> id: login]
+Session ID: 50e178d371c6bf6453636cc679cf7aa8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (400, 688)
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50e178d371c6bf6453636cc679cf7aa8, clickElement {id=f.39C4DF897AC87F66C5A471C9DC2B9421.d.53CD16684F2EB0C57C6C76B29DA919CA.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/2b/5p0khtwn35s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59880}, goog:processID: 98814, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59880/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (50e178d371c6bf6453636cc679cf7aa8)] -> id: login]
+Session ID: 50e178d371c6bf6453636cc679cf7aa8
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+at Poornimaacademy.pageobject.LandingPage.loginApplication(LandingPage.java:52)
+at Poornimaacademy.tests.OrderSubmissionTest.OrderSubmitTest(OrderSubmissionTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderSubmitTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Poornimaacademy.tests.OrderSubmissionTest@12b0404f]" started-at="2026-06-19T15:05:29 IST" name="teardown" finished-at="2026-06-19T15:05:29 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Poornimaacademy.tests.OrderSubmissionTest@12b0404f]" started-at="2026-06-19T15:05:29 IST" name="LaunchApplication" finished-at="2026-06-19T15:05:32 IST" duration-ms="2616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplication -->
+        <test-method signature="OrderSubmitTest(java.util.HashMap)[pri:0, instance:Poornimaacademy.tests.OrderSubmissionTest@12b0404f]" started-at="2026-06-19T15:05:32 IST" name="OrderSubmitTest" data-provider="getData" finished-at="2026-06-19T15:05:33 IST" duration-ms="1106" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Poornima@22, product=ADIDAS ORIGINAL, email=poornimaclk22@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (400, 688)
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb4b8a2ecd44f6e604662b35f3f6b230, clickElement {id=f.217D9AC22290ADF4A65E9C32CA259F82.d.725FE5F5C67C38AD2B0C16B6D41BF2DC.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/2b/5p0khtwn35s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59939}, goog:processID: 98842, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59939/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (eb4b8a2ecd44f6e604662b35f3f6b230)] -> id: login]
+Session ID: eb4b8a2ecd44f6e604662b35f3f6b230]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (400, 688)
+  (Session info: chrome=149.0.7827.114)
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '25.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eb4b8a2ecd44f6e604662b35f3f6b230, clickElement {id=f.217D9AC22290ADF4A65E9C32CA259F82.d.725FE5F5C67C38AD2B0C16B6D41BF2DC.e.9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.114, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/2b/5p0khtwn35s...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59939}, goog:processID: 98842, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:59939/devtoo..., se:cdpVersion: 149.0.7827.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (eb4b8a2ecd44f6e604662b35f3f6b230)] -> id: login]
+Session ID: eb4b8a2ecd44f6e604662b35f3f6b230
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:225)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy11.click(Unknown Source)
+at Poornimaacademy.pageobject.LandingPage.loginApplication(LandingPage.java:52)
+at Poornimaacademy.tests.OrderSubmissionTest.OrderSubmitTest(OrderSubmissionTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderSubmitTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Poornimaacademy.tests.OrderSubmissionTest@12b0404f]" started-at="2026-06-19T15:05:33 IST" name="teardown" finished-at="2026-06-19T15:05:33 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Poornimaacademy.tests.OrderSubmissionTest -->
+    </test> <!-- ordersubmisstest -->
+  </suite> <!-- Suite -->
+</testng-results>
